@@ -1,0 +1,33 @@
+baseUrl = ""
+title = "Anton Holmberg"
+author = "Anton Holmberg"
+theme = "PaperMod"
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+	mode="auto"
+	useCDN=false
+
+[params.homeInfoParams]
+Title = "Anton Holmberg"
+Content = """
+This is a small blog where I will share my thoughts, recipes and experiences.
+I will partly use this for sharing things with others, but also as a personal memory library.
+"""
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 3
