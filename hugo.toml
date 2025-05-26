@@ -31,3 +31,6 @@ weight = 2
 name = "Tags"
 url = "/tags"
 weight = 3
+
+[markup.goldmark.renderer]
+unsafe = true
